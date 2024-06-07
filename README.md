@@ -52,11 +52,11 @@ This is only useful for legacy applications and APIs that store mutable data ins
 Not recommended. For new projects, use `StateNotifierProvider` instead.
 
 ![](change-notifier-provider.png)
-**Modifiers** is a function that is used to modify or enhance the behavior of a Provider. Modifiers are used to add additional functionality to Providers, such as caching, lazy initialization, or filtering.
-Here are some examples of modifiers in Riverpod:
-`.family`: This modifier is used to create a family of Providers that share similar behavior. For example, you could create a family of HTTP Clients that share the same base URL.
-`.autoDispose`: This modifier is used to automatically dispose of a Provider when it is no longer being used. This can be useful for Providers that consume resources, such as database connections.
-`.overrideWithValue`: This modifier is used to override the value of a Provider with a new value. This can be useful for testing or for providing mock data.
+**Modifiers** is a function that is used to modify or enhance the behavior of a Provider. Modifiers are used to add additional functionality to Providers, such as caching, lazy initialization, or filtering.<br />
+Here are some examples of modifiers in Riverpod:<br />
+`.family`: This modifier is used to create a family of Providers that share similar behavior. For example, you could create a family of HTTP Clients that share the same base URL.<br />
+`.autoDispose`: This modifier is used to automatically dispose of a Provider when it is no longer being used. This can be useful for Providers that consume resources, such as database connections.<br />
+`.overrideWithValue`: This modifier is used to override the value of a Provider with a new value. This can be useful for testing or for providing mock data.<br />
 `.state`: This modifier is used to create a Provider that manages a mutable state value. This can be useful for managing UI state, such as whether a button is disabled or enabled.
 
 
