@@ -52,6 +52,8 @@ This is only useful for legacy applications and APIs that store mutable data ins
 Not recommended. For new projects, use `StateNotifierProvider` instead.
 
 ![](change-notifier-provider.png)
+
+
 **Modifiers** is a function that is used to modify or enhance the behavior of a Provider. Modifiers are used to add additional functionality to Providers, such as caching, lazy initialization, or filtering.<br />
 
 Here are some examples of modifiers in Riverpod:<br />
